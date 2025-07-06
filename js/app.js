@@ -51,7 +51,7 @@ function mostrarError(mensaje) {
 
 function consultarAPI(ciudad) {
     const apiId = '7da0d3b09cfa4b34b03172118230506';
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiId}&q=${ciudad}&aqi=no
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiId}&q=${ciudad}&aqi=no
     `;
 
     Spinner(); // Muestra un spinner de carga
